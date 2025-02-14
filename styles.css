@@ -1,0 +1,47 @@
+/* Estilo general */
+body {
+    font-family: 'Indie Flower', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #222;
+}
+
+/* Estilo de la tarjeta */
+.card {
+    background: #ffe4c4;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+}
+
+/* Imagen de la flor */
+.flower {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+/* Texto bonito */
+.text {
+    font-size: 20px;
+    color: #333;
+}
+
+/* Botón */
+button {
+    background: #ff6b81;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #ff4757;
+}
